@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443676612681",
+    "firebase_url": "https://galgotiasunifest2017-b46b7.firebaseio.com",
+    "project_id": "galgotiasunifest2017-b46b7",
+    "storage_bucket": "galgotiasunifest2017-b46b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443676612681:android:37e22aa57a4c6a80",
+        "android_client_info": {
+          "package_name": "com.gquasar.galgotiasunifest2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443676612681-8931qscl17jqg0is58ilsvnl8qt2dcdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gquasar.galgotiasunifest2017",
+            "certificate_hash": "8A09CFC8A534B0A062E03F63F146C86363E9418B"
+          }
+        },
+        {
+          "client_id": "443676612681-nrqr7fr2relehfmmjeks8do1rprrbu0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm1SG3tfJbeugJzsGr5cOVFXDWW86cbuo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443676612681-nrqr7fr2relehfmmjeks8do1rprrbu0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,574 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gquasar.galgotiasunifest2017.Activity_Events">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+            android:padding="5dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+                    <ImageView
+                        android:id="@+id/iv_backgroind_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vinnie" />
+
+                    <TextView
+                        android:id="@+id/topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Dean- Student Affairs and Clubs"
+                        android:textColor="#fff"
+
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:id="@+id/organiser_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Vinnie Khanna Mathur"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="GCET CORE TEAM"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/gcetcore2" />
+
+                <TextView
+                    android:id="@+id/topic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:autoLink="phone"
+                    android:text="General Secretary\n9811120575"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Yash Mathur"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/gcetcore1" />
+
+                <TextView
+                    android:id="@+id/topic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:autoLink="phone"
+                    android:text="General Secretary\n7838458496"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Aakanksha Gautam "
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/gcetcore3" />
+
+                <TextView
+                    android:id="@+id/topic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:autoLink="phone"
+                    android:text="Chief Secretary\n8586830669"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Abhishek Bajaj"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gcetcore4" />
+
+            <TextView
+                android:id="@+id/topic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="Joint Secretary\n9818944495"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Prashant Sharma"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gcetcore5" />
+
+            <TextView
+                android:id="@+id/topic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="Vice Secretary\n8010424738"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Saraswat Mishra"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gcetcore6" />
+
+            <TextView
+                android:id="@+id/topic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="Deputy Vice Secretary\n8377869661"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Arbab Khan"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gcetcore7" />
+
+            <TextView
+                android:id="@+id/topic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="Regent Secretary\n8510889118"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Varun Jain"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="GU CORE TEAM"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gucore1" />
+
+            <TextView
+                android:id="@+id/topic11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="General Secretary\n9560094888"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Abhishek Aggrawal"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gucore2" />
+
+            <TextView
+                android:id="@+id/topic12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="General Secretary\n9582106484"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Sashi Shekhar"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/iv_backgroind_image13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/gucore3" />
+
+            <TextView
+                android:id="@+id/topic13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:autoLink="phone"
+                android:text="Deputy General Secreatary\n9161111611"
+                android:textColor="#fff"
+
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#67000000"
+                android:padding="5dp"
+                android:text="Shashwat Srivastava"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_above="@+id/topic13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

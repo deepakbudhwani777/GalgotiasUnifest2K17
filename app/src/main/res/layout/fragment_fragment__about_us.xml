@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gquasar.galgotiasunifest2017.Fragment_AboutUs"
+    android:background="@drawable/splashbackground">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="“History repeats itself”\n\nJoy, amusement, freshness ,and enthusiasm are all ready to make a comeback. The panacea for your dull, monotonous, and tedious routine, G –Quasar is ready to bloom this spring.
+\nOnce again, the biggest fest of North India is eager to make history. Welcome to G-Quasar! The Galgotias unifest! It is a carnival of life, an epitome of merriment and revitalization. It is not just a fest, it is not like any other event, neither it is just about competitions and concerts. G-Quasar, is sea of joviality, a sky of freedom and a river of ebullience. It is about dancing on the beats, forgetting about yourself and exploring oneness, cheering altogether. G-Quasar means meeting new faces, making new friends, shouting in joy to the fullest and lots of memorable moments.
+\nThe winds of G-Quasar will cover several miles carrying the aroma of enchantment. We promised to bring something inconceivable ,we have kept our promise, we present you the world of magic spells-G-Quasar 2017, Enchantment! Expand your imagination,  learn the chants well, get ready to do some abracadabra, find your fairy godmother and enchant the spells to environs yourself with magic of joy at  G –Quasar 2K17. So,come and add fervour to the festivity of high spirits!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_light_background"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:id="@+id/textView4" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="GALGOTIAS UNIFEST\nMAGIC-AN ENCHANTMENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textView3" />
+</RelativeLayout>

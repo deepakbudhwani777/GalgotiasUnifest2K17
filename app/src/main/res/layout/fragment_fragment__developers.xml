@@ -1,0 +1,226 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gquasar.galgotiasunifest2017.Activity_Events">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="DEVELOPERS"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/team1" />
+
+                <TextView
+                    android:id="@+id/topic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:autoLink="phone"
+                    android:text="3rd Year EC GCET\n7042256588"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:id="@+id/organiser_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Prakhar Shukla"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/team2" />
+                <TextView
+                    android:id="@+id/topic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:autoLink="phone"
+                    android:text="3rd Year IT GCET\n7607386062"
+                    android:textColor="#fff"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Deepak Budhwani"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/team3" />
+
+                <TextView
+                    android:id="@+id/topic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:autoLink="phone"
+                    android:text="3rd Year CS GCET\n9599664407"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Akash Sharma"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/iv_backgroind_image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/team4" />
+
+                <TextView
+                    android:id="@+id/topic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#67000000"
+                    android:autoLink="phone"
+                    android:padding="5dp"
+                    android:text="2nd Year  IT GCET\n9696565171"
+                    android:textColor="#fff"
+
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#67000000"
+                    android:padding="5dp"
+                    android:text="Shubham Kumar"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:layout_above="@+id/topic4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

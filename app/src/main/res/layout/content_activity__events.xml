@@ -1,0 +1,2752 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:paddingTop="60dp"
+    android:layout_height="match_parent"
+    tools:context="com.gquasar.galgotiasunifest2017.Activity_Events">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+
+                    <ImageView
+                        android:id="@+id/iv_backgroind_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/dra" />
+
+                    <TextView
+                        android:id="@+id/topic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Dramatics"
+                        android:textColor="#fff"
+
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+                    <ImageView
+                        android:id="@+id/iv1"
+                        android:layout_alignRight="@+id/topic"
+                        android:layout_above="@+id/topic"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:id="@+id/organiser_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="DRAMATICS"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_event"
+                            android:text="Stree Play"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:id="@+id/tv_fees"
+                            android:text="1000/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:id="@+id/tv_size"
+                            android:text="7-18"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Stage Play+Mime Act"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1000/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="7-15"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mono Act+Stand Up Comedy"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Script Writing"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Theme Party"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/j" />
+                    <TextView
+                        android:id="@+id/topic1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Cam Circle"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/topic1"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="CAM CIRCLE"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+                    <ImageView
+                        android:id="@+id/iv2"
+                        android:layout_alignRight="@+id/topic1"
+                        android:layout_above="@+id/topic1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Photo Booth"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Story Teller"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="3"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Aperture"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Selfie Fiesta"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Video Day"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Photo Of The Day"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Sticky Note Wall"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Photo Exhibition"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="100/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="for 2 pics"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Wierdofie"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Click It Up"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Sumitup"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/hj" />
+                    <TextView
+                        android:id="@+id/topic2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Literary"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+                    <ImageView
+                        android:id="@+id/iv3"
+                        android:layout_alignRight="@+id/topic2"
+                        android:layout_above="@+id/topic2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="LITERARY"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic2"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/textView2" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Magic Gol Gappa"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Face Off"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Quote Writing"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Enchanted Stories"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Are You A Muggle"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="What Happens Next"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Battle Of Wits"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Chai Pe Charcha"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="VJ Hunt"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Poetry Darpan"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Snake Ladder-ature"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Let's Race"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Naughty Notes"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/fghj"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:id="@+id/topic4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Music"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+                    <ImageView
+                        android:id="@+id/iv4"
+                        android:layout_alignRight="@+id/topic4"
+                        android:layout_above="@+id/topic4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="MUSIC"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic4"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        />
+
+
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll4"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mesmeriser"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="100/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Instrumento"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="100/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="The Duos"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="150/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Battle Of Bands"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1000/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="3-10"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+
+                        android:src="@drawable/h" />
+                    <TextView
+                        android:id="@+id/topic5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Frag"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+
+                    <ImageView
+                        android:id="@+id/iv5"
+                        android:layout_alignRight="@+id/topic5"
+                        android:layout_above="@+id/topic5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="FRAG"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll5"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mini Militia"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="FIFA(PS4)"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Call Of Duty"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="250/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="3-5"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Counter Strike"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="250/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="3-5"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="UFC(PS4)"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mortal Kombat(PS4)"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="NFS"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text=""
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/y" />
+                    <TextView
+                        android:id="@+id/topic6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Dance"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+
+                    <ImageView
+                        android:id="@+id/iv6"
+                        android:layout_alignRight="@+id/topic6"
+                        android:layout_above="@+id/topic6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="DANCE"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic6"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll6"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Illusion(Group Dance)"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1200/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="6-20"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mystic(Solo Dance)"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="400/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/k" />
+                    <TextView
+                        android:id="@+id/topic7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Quiz"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+
+                    <ImageView
+                        android:id="@+id/iv7"
+                        android:layout_alignRight="@+id/topic7"
+                        android:layout_above="@+id/topic7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="QUIZ"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic7"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll7"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Sports Quiz"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="MELA"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="The Magical Quiz"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Do You Know Your Country"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="The Quizita Maven Quiz"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="10 Ka Dum"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="30/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Do You Know Your Fav Personality"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp"
+            android:id="@+id/textView3" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/f" />
+                    <TextView
+                        android:id="@+id/topic8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Fine Arts"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+
+
+
+                    <ImageView
+                        android:id="@+id/iv8"
+                        android:layout_alignRight="@+id/topic8"
+                        android:layout_above="@+id/topic8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="FINE ARTS"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_above="@+id/topic8"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/textView" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll8"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Love Letter"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Suicide Letter"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Poster Making"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Abstract Painting"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Tatto Making"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Beg Borrow Steal"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Treasure Hunt"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="100/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="4-5"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Magical Stories"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1-2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Doodel Your T-Shirts"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Wand Off"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Monochromatic Painting"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Shade Blade"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Spell O Craft"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Paint Ball"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="100/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="3-4"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Roadies"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Date Trap"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="60/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mad Add"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Sketching Master"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Cartoon Making"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="40/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/creativebrain" />
+                    <TextView
+                        android:id="@+id/topic9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Creative Team"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+                    <ImageView
+                        android:id="@+id/iv9"
+                        android:layout_alignRight="@+id/topic9"
+                        android:layout_above="@+id/topic9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/topic9"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="CREATIVE TEAM"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll9"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="My College My Way"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="5"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Movie Trailer Shoot"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="5"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Recreate The Magic"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="50/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="2"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12sp" />
+
+        <android.support.v7.widget.CardView android:orientation="horizontal"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="19dp"
+                        android:src="@drawable/fashion"
+                        android:layout_marginStart="19dp"></ImageView>
+                    <TextView
+                        android:id="@+id/topic10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="Scintillations"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_alignParentLeft="true" />
+                    <TextView
+                        android:textStyle="bold|italic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/topic10"
+                        android:background="#67000000"
+                        android:padding="5dp"
+                        android:text="SCINTILLATIONS"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+                    <ImageView
+                        android:id="@+id/iv10"
+                        android:layout_alignRight="@+id/topic10"
+                        android:layout_above="@+id/topic10"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_expand_more_white_24dp" />
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll10"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#96000000"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_height="1dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Events"
+                            android:textSize="20dp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Fees"
+                            android:textSize="20dp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="Team Size"
+                            android:textSize="20dp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Mr And Ms Scintillations"
+                            android:textSize="20sp"
+                            android:layout_width="185sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="1500/-"
+                            android:textSize="20sp"
+                            android:layout_width="70sp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textAlignment="center"
+                            android:text="8-10"
+                            android:textSize="20sp"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
